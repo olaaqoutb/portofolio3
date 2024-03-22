@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.body {
+    background-color: rgb(28, 27, 27);
+    color: #ededed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    background-color: rgb(142, 88, 21);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-family: "Nova Square";
+}
+
+.logo {
+
+    position: relative;
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.navBar a {
+
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.header a:hover {
+    color: rgb(183, 128, 17);
+}
+
+.social {
+    margin-top: 600px;
+    position: relative;
+    right: 1000px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    gap: 20px;
+}
+
+.one:hover  {
+    color:rgb(199, 159, 14);
+    cursor: pointer;
+   font-size: 30px;
+}
+.two:hover  {
+    color:rgb(199, 159, 14);
+    cursor: pointer;
+    font-size: 30px;
+}
+.three:hover  {
+    color:rgb(199, 159, 14);
+    cursor: pointer;
+    font-size: 30px;
+}
+.four:hover  {
+    color:rgb(199, 159, 14);
+    cursor: pointer;
+    font-size: 30px;
+}
+.five:hover  {
+    color:rgb(199, 159, 14);
+    cursor: pointer;
+    font-size: 30px;
+}

@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: 0;
+}
+.body{
+    background-color: rgb(28, 27, 27);
+    color:#ededed;
+   
+}
+.header{
+    background-color:rgb(142, 88, 21);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100 ;
+    font-family: "Nova Square";
+}
+.logo{
+   
+    position: relative;
+    font-size: 35px;
+    color:#fff;
+    font-weight:600;
+}
+.navBar a {
+    
+    display:inline-block;
+    font-size:25px;
+    color:#fff;
+   
+    font-weight:500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.header a:hover{
+color: rgb(183, 128, 17);
+}
+.content{
+    display: flex;
+    
+    
+}
+.text{
+    margin: 280px 200px 0px 200px ;
+}
+.text h3{
+    padding: 10px;
+}
+.text p{
+    padding: 10px;
+}
+.Imag{
+    height: 600px;
+}
+.homeImag,.hoverImag{
+    width: 400px;
+    height: 400px;
+    border: 1px solid white;
+    border-style: none;
+    border-radius: 50%;
+    float: right;
+    margin-top: 200px;
+    /* margin-right: 70px; */
+}
+.hoverImag{
+margin-top: 0px;
+position: relative;
+bottom: 400px;
+opacity: 0;
+}
+
+.homeImag:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    opacity: 0;
+    transition: 1s ease-out
+}
+.hoverImag:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+   
+    opacity: 1;
+    transition: 2s ease-out
+}
+.social{
+    margin-top: 600px  ;
+    position: relative;
+    right: 1000px;
+  width: 300px;
+ display: flex;
+ justify-content: space-between;
+ font-size: 20px;
+ gap: 20px;
+}
+.one:hover  {
+    color:rgb(199, 159, 14);
+    cursor: pointer;
+   font-size: 30px;
+}
+.two:hover  {
+    color:rgb(199, 159, 14);
+    cursor: pointer;
+    font-size: 30px;
+}
+.three:hover  {
+    color:rgb(199, 159, 14);
+    cursor: pointer;
+    font-size: 30px;
+}
+.four:hover  {
+    color:rgb(199, 159, 14);
+    cursor: pointer;
+    font-size: 30px;
+}
+.five:hover  {
+    color:rgb(199, 159, 14);
+    cursor: pointer;
+    font-size: 30px;
+}
+/* .homeButton{
+    width: 350px;
+      height: 100px;
+ position: relative;
+    right: 1100px;
+    top:600px
+ 
+} */
